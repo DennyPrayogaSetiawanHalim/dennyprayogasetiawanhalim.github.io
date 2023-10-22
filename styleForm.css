@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+.menu {
+    list-style: none;
+    padding: 25px;
+    font-size: 25px;
+    color:black
+}
+.nav {
+    height: 100%;
+    width: 120px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: blanchedalmond;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.nav a:hover{
+    color:rgb(54, 190, 231)
+}
+.head {
+    margin-left: 120px;
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    background-color: wheat;
+    font-size: 18px;
+}
+.logo {
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+}
+.main{
+    margin-left: 120px;
+    padding: 25px 25px;
+    text-align: justify;
+}
+.form{
+    text-align:justify;
+}
+.input{
+    margin-top: 0.25rem;
+    padding: 0.5rem 1rem;
+}
+.form form{
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 1rem 0 2rem;
+    border-top: 1px solid var(--color-gray-light);
+    border-bottom: 1px solid var(--color-gray-light);
+    overflow: hidden;
+}
+.form input{
+    display: inline-block;
+    width: auto;
+}
+.button{
+    margin-top: 5px;
+    background-color: rgb(232, 217, 88);
+    color: black;
+    padding: 8px;
+    border-radius: 5px;
+    border: 0;
+}
+.button:hover{
+    background-color: rgb(156, 143, 0);
+    color: white;
+}
+.footer{
+    margin-left: 120px;
+    padding: 20px;
+    display: flex;
+    justify-content:center;
+    background-color: wheat;
+    font-size: 18px;
+}
